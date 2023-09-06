@@ -14,14 +14,17 @@ make it easy to build, run, debug, and clean the project.
 * If you'd like to use one of the projects in this repository, follow these simple steps:
 
 ```shell
-$ git clone https://github.com/YamtalDev/Cpp.git
-$ cd C/test/"project_name"s
+
+$ git clone https://github.com/YamtalDev/C_Exercises.git
+$ cd C"project_name"/test/"project_name"
 $ make && make run
+
 ```
 
 ## The structure of each project is:
 
 ```shell
+
 ├── Calculator/
 │   ├── bin/
 │   │   ├── executables/
@@ -30,25 +33,27 @@ $ make && make run
 │   │   └── static_libs/
 │   |
 |   ├── include/
-│   │   ├── Project header files
+│   │   └── Project header files
 |   |
 │   ├── src/
-│   │   ├── Project src files
+│   │   └── Project src files
+|   |
 │   ├── test/
 │   │   ├── makefile
 │   │   └──test file
+
 ```
 
-* Inside the implementation folder `"project_name"/test/"project_name"`, you'll find the following files:
+### Inside the implementation folder `"project_name"/test/"project_name"`, you'll find the following files:
 
 - project_name_test.c: A test file for testing the implementation.
 - Makefile: A Makefile to automate compilation, running, debugging, and cleaning.
 
-* Inside the implementation folder `"project_name"/include`, you'll find:
+### Inside the implementation folder `"project_name"/include`, you'll find:
 
 - project_name.h: The header file containing the necessary declarations.
 
-* Inside the implementation folder `"project_name"/src`, you'll find:
+### Inside the implementation folder `"project_name"/src`, you'll find:
 
 - project_name.c: The C++ source file with the implementation.
 
