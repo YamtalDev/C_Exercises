@@ -2,13 +2,9 @@
 
     Writer: Tal Aharon
 
-    Reviewer: First name and family name.
+    Reviewer: .
 
     Date: 01.05.2023
-
-*******************************************************************************
-
-    Description:
 
 ******************************************************************************/
 #include <stdio.h>   /* printf, puts */
